@@ -1,14 +1,17 @@
-import { useState } from 'react'
 import './App.css'
+import Navbar from './components/Navbar'
+import About from './components/about'
+import Footer from './components/footer'
 
 function App() {
 
   return (
     <>
-      <h1>My Portfolio</h1>
-      <h2>personal intro <a href="Linkt to wali phot">Wali photo</a></h2>
+      <Navbar />
+      <About />
       <h3>Work intro</h3>
       <h4>contact</h4>
+      <Footer />
     </>
   )
 }
