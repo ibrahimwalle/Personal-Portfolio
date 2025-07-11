@@ -10,7 +10,7 @@ const Navbar = () => {
 
     return (
         // Navbar
-        <header className="flex w-full overflow-hidden m-4 p-5 rounded-2xl shadow bg-white sticky top-0 z-50">
+        <header className="flex w-full overflow-hidden mt-4 p-5 rounded-2xl shadow bg-white sticky top-0 z-50">
             <nav id="nav" role="navigation" className="w-full ">
                 <div className="container mx-auto flex flex-wrap items-center md:flex-no-wrap">
                     <div className="mr-4 md:mr-8">

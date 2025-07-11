@@ -3,10 +3,10 @@
 const Footer = () => {
 
     return(
-        <footer className="flex items-center justify-around gap-4 p-6 mt-4 sticky bottom-0 border-t-2 border-[#8672c693]">
+        <footer className="flex md:flex-row md:items-center justify-around gap-4 p-6 mt-4 md:sticky lg:sticky md:bottom-0 border-t-2 border-[#8672c693] sm:text-xs flex-col bg-[#f5e5d6] rounded-2xl shadow mb-2">
             <div className="flex flex-col">
                 <span className="font-bold">Phone</span>
-                <span className="text-sm">+447762890154 </span>
+                <span className="text-sm font-semibold">+447762890154 </span>
             </div>
             <div className="flex flex-col">
                 <span className="font-bold">Email</span>

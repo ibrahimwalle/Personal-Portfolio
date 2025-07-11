@@ -2,6 +2,8 @@ import './App.css'
 import Navbar from './components/Navbar'
 import About from './components/about'
 import Footer from './components/footer'
+import Work from './components/work'
+import Contact from './components/contact'
 
 function App() {
 
@@ -9,8 +11,8 @@ function App() {
     <>
       <Navbar />
       <About />
-      <h3>Work intro</h3>
-      <h4>contact</h4>
+      <Work />
+      <Contact />
       <Footer />
     </>
   )
