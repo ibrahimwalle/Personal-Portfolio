@@ -4,7 +4,7 @@ const Contact = () => {
         <section id="contact" className="bg-white rounded-2xl shadow p-6 mb-8">
             <h2 className="text-4xl font-bold mb-6">Contact</h2>
             <p className="text-gray-700 mb-4">
-                If you have any questions or would like to get in touch, feel free to reach out via email or connect with me on LinkedIn.
+                If you have any questions or would like to get in touch, feel free to reach out via email or connect with me on LinkedIn. <br /> You can also check out my photography portfolio at <a href="https://wali-photo.netlify.app/" target="blank" className="text-sm">Wali Photo</a>
             </p>
             <div className="space-y-4">
                 <div className="flex items-center gap-2">
